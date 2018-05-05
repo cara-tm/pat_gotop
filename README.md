@@ -26,7 +26,7 @@ Then, add an id with the top attribute into your body HTML tag:
 > * `showme` boolean (optional): Display the button on page load (`1` = Yes, `0` = no). Default: `1` (true)
 > * `from_top` boolean (optional): Choose where to calculate the distance to display the button from the top of the page or from the bottom of the page. Default: `1` (true).
 > * `distance` integer (optional): The distance in pixels when the button appears (from the top or from the bottom of the page, see above). Default: `750`.
-> * `adjust` integer (optional): . Default: `100`.
+> * `adjust` integer (optional): Adjustment in pixels to reach the top of the page. Default: `100`.
 
 ## Custom CSS
 
