@@ -9,6 +9,8 @@ This simple plugin allows you to add a "Go Top" button into your Textpattern web
 * Feature detection in order to use the scrooling animation by default within modern browsers;
 * Fallback as a simple link for old browsers.
 
+Final weight: only 1.79 additional KBytes into you pages.
+
 ## Usage
 
 Place this tag where you want your "Go Top" button:
