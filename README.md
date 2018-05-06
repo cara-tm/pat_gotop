@@ -43,7 +43,11 @@ First of all, add this into your body CSS properties:
 
 This ensures you to use the default scrolling event in all modern browsers.
 
-Second, here is the default style rules for the link to add into your CSS file:
+Second, include this link into your templates:
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cara-tm/pat_gotop@0.1.0/pat_gotop.min.css">`
+
+...Or, if you want to minize the number of requests, here is the default style rules for the link to add into your CSS file:
 
 ***
 
