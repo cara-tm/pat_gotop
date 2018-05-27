@@ -51,7 +51,7 @@ The current plugin needs some CSS rules, here is a starting base of style rules 
 
 Include this link into your templates:
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cara-tm/pat_gotop@0.1.2/pat_gotop.min.css">`
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cara-tm/css/pat_gotop@0.1.2/pat_gotop.min.css">`
 
 ...Or, if you want to minize the number of requests, here is the default style rules for the link to add into your CSS file:
 
@@ -160,7 +160,7 @@ Include this link into your templates:
 
 ## Full fallback with javascript disabled
 
-If you want a full availability of your button, you could take advantage to add a js feature detection into the <head> part of your page templates:
+If you want a full availability of your button, you could take advantage to add a js feature detection into the `<head>` part of your page templates:
 
     <script>
     if(document.documentElement){document.documentElement.className='JS';}
