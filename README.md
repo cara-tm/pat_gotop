@@ -90,17 +90,19 @@ Include this link into your templates:
 	-moz-opacity: 0;
 	opacity: 0;
 
-	-webkit-transform: translate(0, 0) scale(0.5);
-	-ms-transform: translate(0, 0) scale(.5);
-	transform: translate(0, 0) scale(.5);
+	will-change: transform;
 
-	-webkit-animation: opacity 200ms ease-in-out, transform 500ms ease-in-out;
-	-webkit-transition-property: opacity, transform;
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(.5);
+	transform: scale(.5);
+
+	-webkit-animation: transform 90ms ease-in-out;
+	-webkit-transition-property: transform;
 	transition-property: opacity, transform;
-	-webkit-transition-duration: 200ms, 500ms;
-	transition-duration: 200ms, 500ms;
-	-webkit-transition-timing-function: linear, ease-in-out;
-	transition-timing-function: linear, ease-in-out
+	-webkit-transition-duration: 90ms;
+	transition-duration: 90ms;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out
     }
 
     /* IE6 fixed position support: can be removed if you don't need it */
@@ -141,9 +143,9 @@ Include this link into your templates:
 	-moz-opacity: 1;
 	opacity: 1;
 
-	-webkit-transform: translate(0, 0) scale(1);
-	-ms-transform: translate(0, 0) scale(1);
-	transform: translate(0, 0) scale(1)
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
     }
 
     #pat_gotop svg path {fill: #333}
@@ -198,13 +200,15 @@ Then, use these custom CSS rules instead of the previous ones:
 	cursor: pointer;
 	zoom: 1;
 
-	-webkit-animation: opacity 200ms ease-in-out, transform 500ms ease-in-out;
-	-webkit-transition-property: opacity, transform;
-	transition-property: opacity, transform;
-	-webkit-transition-duration: 200ms, 500ms;
-	transition-duration: 200ms, 500ms;
-	-webkit-transition-timing-function: linear, ease-in-out;
-	transition-timing-function: linear, ease-in-out
+	will-change: transform;
+
+	-webkit-animation: 90ms ease-in-out;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 90ms;
+	transition-duration: 90ms;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out
     }
 
     .JS #pat_gotop {
@@ -217,9 +221,9 @@ Then, use these custom CSS rules instead of the previous ones:
 	-moz-opacity: 0;
 	opacity: 0;
 
-	-webkit-transform: translate(0, 0) scale(0.5);
-	-ms-transform: translate(0, 0) scale(.5);
-	transform: translate(0, 0) scale(.5)
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(.5);
+	transform: scale(.5)
     }
 
     /* IE6 fixed position support: can be removed if you don't need it */
@@ -260,9 +264,9 @@ Then, use these custom CSS rules instead of the previous ones:
 	-moz-opacity: 1;
 	opacity: 1;
 
-	-webkit-transform: translate(0, 0) scale(1);
-	-ms-transform: translate(0, 0) scale(1);
-	transform: translate(0, 0) scale(1)
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
     }
 
     #pat_gotop svg path {fill: #333}
@@ -279,6 +283,6 @@ Then, use these custom CSS rules instead of the previous ones:
 
 ## History
 
-* 24th May 2018: v 0.1.2.
+* 24th May 2018: v 0.1.2 (29th May 2018: CSS simplification).
 * 17th May 2018: version 0.1.1.
 * 5th May 2018: version 0.1.0.
