@@ -8,7 +8,7 @@ This simple plugin allows you to add a "Go Top" button into your Textpattern web
 * Choose to restablish the button appearence when a distance is reached: from the top of the page or from the bottom of the page (in pixels);
 * Rounded, minimalist and transparent SVG icon with visible borders only; fallback as a simple labeled link for old browsers.
 
-Tested successfully within these different browsers into the Four Point Seven default theme:
+Tested successfully within these different browsers into the Four Point Seven default theme (minimal support):
 
 * Firefox 1.0.8 (and all other versions)
 * Google Chromium 1 (and all other versions)
