@@ -6,7 +6,7 @@ This simple plugin allows you to add a "Go Top" button into your Textpattern web
 * Choose to display the button on page load or choose to hide it;
 * Visual "fade in" and "fade out" animations on the user's scrolling event througout the page;
 * Choose to restablish the button appearence when a distance is reached: from the top of the page or from the bottom of the page (in pixels);
-* Fallback as a simple link for old browsers.
+* Rounded, minimalist and transparent SVG icon with visible borders only; fallback as a simple labeled link for old browsers.
 
 Tested successfully within these different browsers into the Four Point Seven default theme:
 
